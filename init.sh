@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sed -i -e '/boot/ d' /var/spool/cron/root
+
 Print() {
 
 	case $3 in 
